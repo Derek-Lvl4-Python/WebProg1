@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Images</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <style>
+        body{
+            text-align: center;
+            background-image: url("Venus.gif");
+            background-size: cover;
+            
+        }
+        
+       
+        .image-container {
+            position: relative;
+            display: inline-block;
+            margin: 20px;
+            
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            display:flex;
+            
+        
+        }
+      
+        .image-container.nirvana:hover img {
+            filter: invert(100%);
+        }
+        .image-container.sza:hover img {
+            filter: sepia(100%);
+        }
+        .image-container.drake:hover img {
+            filter: saturate(200%);
+        }
+     
+    </style>
+
+</head>
+<body>
+    <div class="image-container nirvana">
+        <img src="taylor.jpg" alt="nirvana" title="Nirvana Album" width="450" height="700">
+        
+         
+    </div>
+    <div class="image-container sza">
+        <img src="sza.jpg" alt="sza" title="sza album" width="450" height="700">
+      
+   
+    </div>
+    <div class="image-container drake">
+        <img src="drake.jpg" alt="drake" title="Drake Album" width="450" height="700">
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General Styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url("wall.png");
+  }
+  
+  .h1 {
+    background-color: #dda15e;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  
+
+
+  section.featured-recipe {
+    
+    text-align: center;
+    
+  }
+  
+  
+  
+  
+  .recipe-card button {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .recipe-card button:hover {
+    background-color: #ffa500;
+  }
+  
+  
