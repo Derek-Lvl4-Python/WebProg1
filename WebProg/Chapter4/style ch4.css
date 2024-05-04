@@ -1,0 +1,122 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header styles */
+header {
+    background-color: #17072b;
+    color: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo {
+    font-family: "Tahoma", sans-serif;
+    font-weight: 700;
+    margin: 0;
+    font-size: 32px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Main section styles */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.left-section, .right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.left-section {
+    width: 60%; /* Make the Welcome section wider */
+    margin-right: 20px;
+}
+
+.right-section {
+    width: 40%; /* Make the Line Up section wider */
+    margin-left: 20px;
+}
+
+.left-section img {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+/* Line Up section styles */
+#line-up {
+    background-color: #172d67;
+    color: #FFFFFF;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#line-up ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#line-up ul li {
+    margin-bottom: 10px;
+}
+
+.image-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 300px;
+}
+
+.image-grid img {
+    width: 200px;
+    height: 200px;
+    margin: 0 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #8c15e9;
+    color: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

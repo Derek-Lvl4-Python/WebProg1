@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif; /* Set the font family for the entire document */
+    background-color: #2e8052; /* Set the background color for the body */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Make the body take up the full height of the viewport */
+    margin: 0; 
+}
+
+.container {
+    background-color: #fff; /* Set background color for the container */
+    border-radius: 10px; /* Add rounded corners to the container */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+    padding: 30px; /* Add padding inside the container */
+    text-align: center; /* Center text inside the container */
+    max-width: 400px; /* Limit the maximum width of the container */
+    width: 90%; /* Set the width to 90% of its parent */
+}
+
+h1 {
+    color: #333; /* Set text color for the heading */
+    margin-bottom: 30px; /* Add margin below the heading */
+}
+
+.input-container {
+    margin-bottom: 20px; /* Add margin below each input container */
+}
+
+label {
+    display: block; /* Display labels as block elements */
+    font-weight: bold; /* Set bold font weight for labels */
+    margin-bottom: 10px; /* Add margin below each label */
+    color: #666; /* Set text color for labels */
+}
+
+input[type="number"] {
+    padding: 12px; /* Add padding to input fields */
+    border: 1px solid #ddd; /* Add a border to input fields */
+    border-radius: 5px; /* Add rounded corners to input fields */
+    width: 100%; /* Set the width to fill the container */
+    font-size: 16px; /* Set font size for input fields */
+}
+
+button {
+    background-color: #3131b2; /* Set background color for buttons */
+    border: none; /* Remove border from buttons */
+    color: white; /* Set text color for buttons */
+    padding: 12px 25px; /* Add padding inside buttons */
+    text-align: center; /* Center text inside buttons */
+    text-decoration: none; /* Remove default text decoration */
+    display: block; /* Display buttons as block elements */
+    font-size: 16px; /* Set font size for buttons */
+    margin: 0 auto; 
+    margin-top: 20px; /* Add margin above buttons */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 5px; /* Add rounded corners to buttons */
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: #626fcb; /* Change background color on hover */
+}
+
+.result {
+    font-size: 24px; /* Set font size for result text */
+    font-weight: bold; /* Set bold font weight for result text */
+    color: #333; /* Set text color for result text */
+    margin-top: 30px; 
+}
